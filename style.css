@@ -1,0 +1,119 @@
+body {
+font-family:Helvetica;
+background-color: black;
+opacity: 0/9;
+color: seashell;
+font-size: 22px;
+}
+
+/*---HEADER---*/
+
+header {
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0%;
+    border-bottom: 1px solid seashell;
+}
+
+header img {
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
+
+header a{
+    color:white;
+    float: right;
+    margin: 20px;
+    display: block;
+
+}
+
+/*----BODY---*/
+
+.mission-image {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+}
+
+.text-over{
+    background-color: black;
+    text-align: center;
+    height: auto;
+    
+    
+
+    
+}
+
+
+.teaofthemonth {
+    text-align: center;
+
+}
+
+.selections{
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.selections img{
+    height: 200px;
+    width: 300px;
+
+}
+/*---locations---*/
+
+.secondhero img {
+    opacity: 0.5;
+
+}
+
+
+.titolo2hero {
+    position: relative;
+    
+    bottom: 700px;
+    text-align: center;
+}
+
+.downtown {
+
+    display:inline-block;
+    background-color: aquamarine;
+}
+
+
+.downtown, .eastbayside, .oakdale {
+    background-color: blanchedalmond;
+    display: inline-block;
+    width: 200px;
+    height: 300px;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
